@@ -20,5 +20,6 @@ class ProductionConfig(Config):
     
 env_config = {
     "production": ProductionConfig,
+    "testing": ProductionConfig,
     "default": ProductionConfig
 }

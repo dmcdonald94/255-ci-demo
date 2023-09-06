@@ -9,4 +9,10 @@ class DefaultResource(Resource):
             "status": "success"
             }
 
+    def post(self):
+        return {
+            "message": "Hello, World!",
+            "status": "success"
+            }
+
 api.add_resource(DefaultResource, "/", endpoint="home")
