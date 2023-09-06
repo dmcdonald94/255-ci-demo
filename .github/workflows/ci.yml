@@ -17,7 +17,7 @@ jobs:
 
             # install python
             - name: Setup Python ${{ matrix.python-version }} 
-              uses: action/setup-python@v2
+              uses: actions/setup-python@v4.7.0
               with:
                     python-version: ${{  matrix.python-version }}
 
